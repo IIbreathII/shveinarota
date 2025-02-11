@@ -42,7 +42,6 @@ const ConBlock = () => {
 				<Link href="/guides" className="left">
 					<h1>Доєднатися до пошиття</h1>
 				</Link>
-				<div className="column"></div>
 				<button onClick={openPopup} id="openBtn" className="right"><span>Підтримуй нас Донатом</span></button>
 				<div ref={popup} id="popup" className="popup">
 					<div className="popup-content">
